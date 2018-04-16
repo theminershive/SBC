@@ -1,0 +1,8 @@
+Building Zaca
+See doc/readme-qt.rst for instructions on building Zaca QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Zaca.
+
+See doc/build-*.txt for instructions on building sbcd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Zaca.
