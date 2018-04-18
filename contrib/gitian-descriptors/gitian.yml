@@ -1,5 +1,5 @@
 ---
-name: "sbc"
+name: "SBC"
 suites:
 - "lucid"
 architectures:
@@ -20,8 +20,8 @@ packages:
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/theminershive/SpankBankCoin.git"
-  "dir": "sbc"
+- "url": "https://github.com/theminershive/SBC.git"
+  "dir": "SBC"
 files:
 - "miniupnpc-1.6.tar.gz"
 - "qrencode-3.2.0.tar.bz2"
