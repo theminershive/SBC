@@ -950,7 +950,7 @@ func_normal_abspath ()
         func_normal_abspath_result=$func_stripname_result
         return
         ;;
-      # The next three entries are used to spot a run of precisely
+      # The next three entries are used to spot a run of lucidly
       # two leading slashes without using negated character classes;
       # we take advantage of case's first-match behaviour.
       ///*)

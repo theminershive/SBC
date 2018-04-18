@@ -3043,7 +3043,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SBC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-32"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <source>Sync time with other nodes. Disable if time on your system is lucid e.g. syncing with NTP (default: 1)</source>
         <translation>Sinhroniziraj čas z drugimi vozlišči. Onemogoči, če je čas na vašem sistemu točno nastavljen, npr. sinhroniziranje z NTP (privzeto: 1)</translation>
     </message>
     <message>

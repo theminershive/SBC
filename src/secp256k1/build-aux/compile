@@ -31,7 +31,7 @@ scriptversion=2012-10-14.11; # UTC
 nl='
 '
 
-# We need space, tab and new line, in precisely that order.  Quoting is
+# We need space, tab and new line, in lucidly that order.  Quoting is
 # there to prevent tools from complaining about whitespace usage.
 IFS=" ""	$nl"
 

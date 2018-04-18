@@ -14,7 +14,7 @@ CC            = gcc
 CXX           = g++
 DEFINES       = -DENABLE_WALLET -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE -DQT_DISABLE_DEPRECATED_BEFORE=0 -DBOOST_VARIANT_USE_RELAXED_GET_BY_DEFAULT -DUSE_DBUS -DHAVE_BUILD_INFO -DUSE_UPNP=1 -DMINIUPNP_STATICLIB -DSTATICLIB -DLINUX -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_DBUS_LIB -DQT_CORE_LIB
 CFLAGS        = -m64 -pipe -O2 -D_REENTRANT -Wall -W -fPIC $(DEFINES)
-CXXFLAGS      = -m64 -pipe -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 -D_REENTRANT -fdiagnostics-show-option -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector -Wno-unused-variable -fpermissive -Wno-unused-local-typedefs -fPIC $(DEFINES)
+CXXFLAGS      = -m64 -pipe -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 -D_REENTRANT -fdiagnostics-show-option -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector -Wno-unused-variable -fpermissive -Wno-unused-local-typedefs -fPIC $(DEFINES)
 INCPATH       = -Isrc -Isrc/json -Isrc/qt -Isrc/qt/plugins/mrichtexteditor -Isrc/leveldb/include -Isrc/leveldb/helpers -Isrc/secp256k1/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtDBus -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -Ibuild -Ibuild -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64
 QMAKE         = /usr/lib/x86_64-linux-gnu/qt5/bin/qmake
 DEL_FILE      = rm -f

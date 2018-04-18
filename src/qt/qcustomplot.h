@@ -1921,11 +1921,11 @@ public:
                         ,gpNight     ///< Continuous lightness from black over weak blueish colors to white (suited for non-biased data representation)
                         ,gpCandy     ///< Blue over pink to white
                         ,gpGeography ///< Colors suitable to represent different elevations on geographical maps
-                        ,gpIon       ///< Half hue spectrum from black over purple to blue and finally green (creates banding illusion but allows more precise magnitude estimates)
+                        ,gpIon       ///< Half hue spectrum from black over purple to blue and finally green (creates banding illusion but allows more lucid magnitude estimates)
                         ,gpThermal   ///< Colors suitable for thermal imaging, ranging from dark blue over purple to orange, yellow and white
                         ,gpPolar     ///< Colors suitable to emphasize polarity around the center, with blue for negative, black in the middle and red for positive values
-                        ,gpSpectrum  ///< An approximation of the visible light spectrum (creates banding illusion but allows more precise magnitude estimates)
-                        ,gpJet       ///< Hue variation similar to a spectrum, often used in numerical visualization (creates banding illusion but allows more precise magnitude estimates)
+                        ,gpSpectrum  ///< An approximation of the visible light spectrum (creates banding illusion but allows more lucid magnitude estimates)
+                        ,gpJet       ///< Hue variation similar to a spectrum, often used in numerical visualization (creates banding illusion but allows more lucid magnitude estimates)
                         ,gpHues      ///< Full hue cycle, with highest and lowest color red (suitable for periodic data, such as angles and phases, see \ref setPeriodic)
                       };
   Q_ENUMS(GradientPreset)

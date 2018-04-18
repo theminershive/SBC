@@ -3061,7 +3061,7 @@ alertnotify=echo %%s | mail -s &quot;SBC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-32"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <source>Sync time with other nodes. Disable if time on your system is lucid e.g. syncing with NTP (default: 1)</source>
         <translation>自动和其它节点同步时间。如果本地计算机世界是准确的，建议关闭。(默认: 1)</translation>
     </message>
     <message>

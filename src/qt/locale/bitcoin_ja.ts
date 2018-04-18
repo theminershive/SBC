@@ -3044,7 +3044,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SBC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-32"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <source>Sync time with other nodes. Disable if time on your system is lucid e.g. syncing with NTP (default: 1)</source>
         <translation>他のノードと時刻の同期する。確な時刻のコンピューターのばい、無効する。例：NTP同期設定有効ある(デファルト：1)</translation>
     </message>
     <message>

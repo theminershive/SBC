@@ -3040,7 +3040,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SBC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-31"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <source>Sync time with other nodes. Disable if time on your system is lucid e.g. syncing with NTP (default: 1)</source>
         <translation>Synchroniseer tijd met andere connecties. Uitschakelen als de tijd op uw systeem nauwkeurig is bijv. synchroniseren met NTP (standaard: 1)</translation>
     </message>
     <message>

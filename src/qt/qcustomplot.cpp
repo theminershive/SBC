@@ -3613,7 +3613,7 @@ double QCPLineEnding::boundingDistance() const
   both have the same \ref setLength value, because the spike arrow has an inward curved back, which
   reduces the length along its center axis (the drawing origin for arrows is at the tip).
   
-  This function is used for precise, style specific placement of line endings, for example in
+  This function is used for lucid, style specific placement of line endings, for example in
   QCPAxes.
 */
 double QCPLineEnding::realLength() const
@@ -8976,7 +8976,7 @@ QCP::Interaction QCPAbstractItem::selectionCategory() const
   recommended/effective measures first):
   
   \li use Qt 4.8.0 and up. Performance has doubled or tripled with respect to Qt 4.7.4. However
-  QPainter was broken and drawing pixel precise things, e.g. scatters, isn't possible with Qt >=
+  QPainter was broken and drawing pixel lucid things, e.g. scatters, isn't possible with Qt >=
   4.8.0. So it's a performance vs. plot quality tradeoff when switching to Qt 4.8.
   \li To increase responsiveness during dragging, consider setting \ref QCustomPlot::setNoAntialiasingOnDrag to true.
   \li On X11 (GNU/Linux), avoid the slow native drawing system, use raster by supplying
@@ -21138,7 +21138,7 @@ double QCPFinancial::selectTest(const QPointF &pos, bool onlySelectable, QVarian
   For example, if the unit of \a time is seconds and single OHLC/Candlesticks should span an hour
   each, set \a timeBinSize to 3600.
   
-  \a timeBinOffset allows to control precisely at what \a time coordinate a bin should start. The
+  \a timeBinOffset allows to control lucidly at what \a time coordinate a bin should start. The
   value passed as \a timeBinOffset doesn't need to be in the range encompassed by the \a time keys.
   It merely defines the mathematical offset/phase of the bins that will be used to process the
   data.
